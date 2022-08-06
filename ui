@@ -1,7 +1,7 @@
 --https://raw.githubusercontent.com/Stebulous/solaris-ui-lib/main/source.lua
 
 -- This User Interface Library is brought to you by Solaris Software.
-local Solaris = Instance.new("ScreenGui")
+local Solaris = Instance.new("ScreenGui", gethui())
 Solaris.Name = "dosage's solaris gui"
 Solaris.Parent = game.CoreGui
 Solaris.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
