@@ -3,7 +3,7 @@
 -- This User Interface Library is brought to you by Solaris Software.
 local Solaris = Instance.new("ScreenGui")
 Solaris.Name = "dosage's solaris gui"
-Solaris.Parent = game.CoreGui
+Solaris.Parent = gethui()
 Solaris.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local NotificationHolder = Instance.new("ScreenGui")
